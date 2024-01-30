@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(#3b1566, #5f4da8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+}
+
+p {
+  font-size: 22px;
+}
+
+.titulos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+#anterior, #proximo{
+  font-size: 3rem;
+  color: #d6d6ea;
+  background: none;
+  border: none;
+  cursor: pointer;
+  
+}
+
+#play{
+  font-size: 4rem;
+  color: #d6d6ea;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
